@@ -1,0 +1,44 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./Pagina2.css">
+    <title>Página Formulario</title>
+</head>
+<body>
+    
+<div class="divBig">
+<form action="" name="formulario"  method="get" >
+  <div class="divinputText">
+    <input type="text" id="nombre" name="nombre" maxlength="30" autocomplete="username" placeholder="Text your name.." required />
+ <br>  
+  <input type="email" id="email" name="email" maxlength="30" autocomplete="email" placeholder="Text your email.." required />
+ <br> 
+   <input type="password" id="psw" name="psw" maxlength="30" autocomplete="current-password" placeholder="Escribe tu password.." required />
+ <br>
+ <Label>File element no required</label>
+ <input type="file"  id="file" name="file" > 
+ <br>
+ <input type="tel"   id="tel" name="tel" maxlength="15" placeholder="Text your telefon number.." required >
+ <br>
+ <input type="range" id="range" name="range"> <Label>Element no required</label>
+</div>
+<div class="divmyradio">
+ <input  type="radio" name="sexo" id="hombre" value="Hombre" required /> <Label>Man</label> &nbsp;
+ <input  type="radio" name="sexo" id="mujer" value="Mujer" required /> <Label>Woman</label>
+ <br>
+ <input  type="checkbox" name="terminos" id="terminos"  /><Label>Terms and conditions</label>
+</div>
+ <br>
+ <button type="submit" class="btn"  id="btn" name="btn" value="Enviar"><b>Send</b></button>
+</form>
+
+</div>
+
+<script src="./Pagina2.js" ></script>
+</body>
+</html>

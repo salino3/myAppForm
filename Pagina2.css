@@ -1,0 +1,73 @@
+
+body{
+    background: lightblue;
+}
+
+.divBig {
+    margin: 0 auto;
+    margin-top: 2em;
+    padding: 3em;
+  border: solid 6px #003040;
+  width: 27em;
+  height: 30em;
+      background: #003D5C;
+      border-radius: 20%;
+
+}
+
+.divBig input {
+    margin: 0.5em;
+    background: lightblue;
+    border-radius: 15%;
+    text-align: center;
+    color: blue;
+
+}
+
+.btn{
+    position: relative;
+    bottom: -8em;
+    left: 5em;
+    background: #003040;
+    color: white;
+    padding: 1em;
+    border-radius: 30%;
+    border: none
+}
+
+.btn:active{
+    border: solid 2px yellow;
+}
+
+.divinputText input:hover{
+      border: solid 3px yellow;
+      font-size: 125%;
+}
+
+.divinputText input::placeholder{
+ text-align: center;
+
+}
+
+input:focus{
+      border: solid 3px yellow;
+      outline: none;
+      font-size: 125%;
+
+}
+
+.divmyradio input{
+    margin-top: 2em;
+    transform: scale(2); 
+    background: lightblue;
+
+}
+
+.divmyradio  input:hover{
+      border: solid 3px yellow;
+    transform: scale(3); 
+}
+
+label{
+    color: white;
+}
